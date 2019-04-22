@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trips</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Destino project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/offers_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/offers_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_container d-flex flex-row align-items-center justify-content-start">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<div>USC</div>
+								<div>TravelMates</div>
+								<div class="logo_image"><img src="images/logo.png" alt=""></div>
+							</div>
+						</div>
+
+						<!-- Main Navigation -->
+						<nav class="main_nav ml-auto">
+							<ul class="main_nav_list">
+								<li class="main_nav_item"><a href="index.html">Home</a></li>
+								<li class="main_nav_item active"><a href="#">Trips</a></li>
+								<li class="main_nav_item"><a href="news.html">Blog</a></li>
+								<li class="main_nav_item"><a href="about.html">Testimonials</a></li>
+								<li class="main_nav_item"><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+
+						<!-- Search -->
+<!-- 						<div class="search">
+							<form action="#" class="search_form">
+								<input type="search" name="search_input" class="search_input ctrl_class" required="required" placeholder="Keyword">
+								<button type="submit" class="search_button ml-auto ctrl_class"><img src="images/search.png" alt=""></button>
+							</form>
+						</div> -->
+
+						<!-- Hamburger -->
+						<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<div class="menu_search_form_container">
+					<form action="#" id="menu_search_form">
+						<input type="search" class="menu_search_input menu_mm">
+						<button id="menu_search_submit" class="menu_search_submit" type="submit"><img src="images/search_2.png" alt=""></button>
+					</form>
+				</div>
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+					<li class="menu_item menu_mm"><a href="#">Trips</a></li>
+					<li class="menu_item menu_mm"><a href="news.html">Blog</a></li>
+					<li class="menu_item menu_mm"><a href="about.html">Testimonials</a></li>
+					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+				</ul>
+
+				<!-- Menu Social -->
+				
+<!-- 				<div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					</ul>
+				</div> -->
+
+				<div class="menu_copyright menu_mm"></div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<!-- Image by https://unsplash.com/@peecho -->
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/trip1.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="home_content">
+						<div class="home_content_inner">
+							<div class="home_title"><h1>Trips</h1></div>
+							<div class="home_breadcrumbs">
+								<ul class="home_breadcrumbs_list">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Find Form -->
+
+
+	<!-- Offers -->
+
+	<div class="offers">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h2>Top destinations</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row filtering_row">
+				<div class="col">
+					<div class="sorting_group_1">
+						<ul class="item_sorting">
+							<li>
+								<span class="sorting_text">Filter by</span>
+								<i class="fa fa-angle-down"></i>
+								<ul>
+									<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>Show All</span></li>
+									<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "price" }'><span>Price</span></li>
+									<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "name" }'><span>Name</span></li>
+								</ul>
+							</li>
+							<li>
+								<span class="sorting_text">Stars</span>
+								<i class="fa fa-angle-down"></i>
+								<ul>
+									<li class="item_filter_btn" data-filter="*"><span>Show All</span></li>
+									<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "stars" }'><span>Ascending</span></li>
+									<li class="item_filter_btn" data-filter=".rating_1"><span>1</span></li>
+									<li class="item_filter_btn" data-filter=".rating_2"><span>2</span></li>
+									<li class="item_filter_btn" data-filter=".rating_3"><span>3</span></li>
+									<li class="item_filter_btn" data-filter=".rating_4"><span>4</span></li>
+									<li class="item_filter_btn" data-filter=".rating_5"><span>5</span></li>
+								</ul>
+							</li>
+							<li>
+								<span class="sorting_text">Price</span>
+								<i class="fa fa-angle-down"></i>
+								<ul>
+									<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>Default</span></li>
+									<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "price" }'><span>Price</span></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="sorting_group_2 clearfix">
+						<div class="sorting_icons clearfix">
+							<div class="detail_view"><i class="fa fa-bars" aria-hidden="true"></i></div>
+							<div class="box_view"><i class="fa fa-th-large" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="items item_grid clearfix">
+
+						<!-- Item -->
+						<div class="item clearfix rating_5">
+							<div class="item_image"><img src="images/paris.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $890</div>
+								<div class="item_title">Paris, France</div>
+								<div class="rating rating_5" data-rating="5">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>Want to visit Paris, France with another usctravelmate? Join us on this adventure, in just a few clicks you could be sitting pool side at one of our top resorts. Come and experience the beautiful world that awaits you. Taking selfies at one of the most iconic places to visit, the Eiffel Tower and the Notre Dame Cathedral:(.</p> </div>
+							</div>
+						</div>
+
+						<!-- Item -->
+						<div class="item clearfix rating_3">
+							<div class="item_image"><img src="images/cinque.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $990</div>
+								<div class="item_title">Cinque Terre</div>
+								<div class="rating rating_3" data-rating="3">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>Ever want to experience the five iconic fishing villages on the rugged Italian Riviera coastline? Book your trip and enjoy the amazing coastal seafood specialties offered at the local restaurants. Be one of the first of your friends to try the local famous sauce, pesto. Take on one of the famous hiking trails with another usctravelmate and stay at one of our colorful houses!</p> </div>
+							</div>
+						</div>
+
+						<!-- Item -->
+						<div class="item clearfix rating_4">
+							<div class="item_image"><img src="images/riviera.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $990</div>
+								<div class="item_title">Italian Riviera</div>
+								<div class="rating rating_4" data-rating="4">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>9 best places to visit: Ventimiglia, San Remo, Seborga, Portofino, Alassio, Cinque Terre, Portovenere, Genoa, Camogli Your travelmate awaits you, let us be a part of your future adventures.</p></div>
+							</div>
+						</div>
+
+												<!-- Item -->
+						<div class="item clearfix rating_5">
+							<div class="item_image"><img src="images/alaskancruise.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $490</div>
+								<div class="item_title">Alaskan Cruise</div>
+								<div class="rating rating_5" data-rating="5">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>Explore the largest state in the United States which is larger than all but 18 of the other countries in the world. Take a cruise with your new travel mate as you witness the barely touch land of the Artic. Experience the great land the way it is suppose to be, undamaged by the mass of people. Come see the enormous power of the glaciers. Be in awe of the majestic Denali National Park. You can even enjoy the company of the sled dogs at their kennels in the National Park. Be careful as you might have a close encounter with wild animals!</p></div>
+							</div>
+						</div>
+
+						<!-- Item -->
+						<div class="item clearfix rating_5">
+							<div class="item_image"><img src="images/iceland.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $1590</div>
+								<div class="item_title">Iceland</div>
+								<div class="rating rating_5" data-rating="5">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>Be amazed by phenomenon of the Northern Lights. Adventure through the unique ice caves as they tower over you. Wade through the crisp, cool water as you feel the black sand in between your toes. Experience this and plenty more of what Iceland has to offer with your new travelmates! </p></div>
+							</div>
+						</div>
+
+												<!-- Item -->
+						<div class="item clearfix rating_5">
+							<div class="item_image"><img src="images/yosemite.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $390</div>
+								<div class="item_title">Yosemite National Park</div>
+								<div class="rating rating_5" data-rating="5">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>"Thousands of tired, nerve-shaken, over-civilized people are beginning to find out that going to the mountains is going home; that wilderness is a necessity..." --John Muir, 1898 Explore the land that reached over 5,000,000 visitors in 2016. Be amazed by the towering granite walls in the Yosemite Valley. Watch the Horsetail Fall glow orange and appear as if its on fire during sunset. Enjoy the serene land as you take a stroll through the winter wonderland. Yosemite has so much to offer. Explore one of nation's most prized treasure by backpacking through some of the 750,000 acres and come across scenarios not seen anywhere else on Earth!</p> </div>
+							</div>
+						</div>
+
+												<!-- Item -->
+						<div class="item clearfix rating_5">
+							<div class="item_image"><img src="images/vietnam.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $1290</div>
+								<div class="item_title">Vietnam</div>
+								<div class="rating rating_5" data-rating="5">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>Come and experience a country where the culture and land is like no other. Kayak through Halong Bay and see the giant limestone rocks Explore Saigon and taste Vietnam's most iconic dish, Pho and drink with the local authrority Vietnam is a rising city, rebuilding from the war that ravished through the country. The Golden Bridge is new wonder that Vietnam is proud to call its own.</p></div>
+							</div>
+						</div>
+
+												<!-- Item -->
+						<div class="item clearfix rating_5">
+							<div class="item_image"><img src="images/ibiza.jpg" alt=""></div>
+							<div class="item_content">
+								<div class="item_price">From $1190</div>
+								<div class="item_title">Ibiza, Spain</div>
+								<div class="rating rating_5" data-rating="5">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<div class="item_text"><p>Visit Ibiza, Spain and celebrate the beginning of summer in the party capital of the world. Party at the place where Las Vegas is trying to imitate. Ibiza's muiltple clubs are consistently in the top 10 world's best clubs. Party at day clubs that will make your friends envious that they didn't travel with you and prepare to continue the party into the night all the way until 6 am (only because the government stepped in and set this deadline). Experience Ibiza and party like there's no tomorrow! </p></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="pages">
+						<ul class="pages_list">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+		<!-- Image by https://unsplash.com/@garciasaldana_ -->
+		<div class="newsletter_background" style="background-image:url(images/newsletter.jpg)"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="newsletter_content">
+						<div class="newsletter_title text-center">Subscribe to our Newsletter</div>
+						<div class="newsletter_form_container">
+							<form action="#" id="newsletter_form" class="newsletter_form">
+								<div class="d-flex flex-md-row flex-column align-content-center justify-content-between">
+									<input type="email" id="newsletter_input" class="newsletter_input" placeholder="Your E-mail Address">
+									<button type="submit" id="newsletter_button" class="newsletter_button">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- Footer Column -->
+				<div class="col-lg-4 footer_col">
+					<div class="footer_about">
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<div>USC</div>
+								<div>TravelMates</div>
+								<div class="logo_image"><img src="images/logo.png" alt=""></div>
+							</div>
+						</div>
+						<div class="footer_about_text">Let us show you the world! We believe in creating connecting experiences and bring together people of different backgrounds. Whether you’re getting ready to backpack through Europe or are preparing to take an exotic scuba diving trip, planning a group experience has never been easier. Take a look around and start your journey today!</div>
+						<div class="copyright"></div>
+					</div>
+				</div>
+
+				<!-- Footer Column -->
+				<div class="col-lg-4 footer_col">
+					<div class="footer_latest">
+						<div class="footer_title">Latest Posts</div>
+						<div class="footer_latest_content">
+
+							<!-- Footer Latest Post -->
+							<div class="footer_latest_item">
+								<div class="footer_latest_image"><img src="images/eatlikelocal_small.jpg" alt="https://unsplash.com/@peecho"></div>
+								<div class="footer_latest_item_content">
+									<div class="footer_latest_item_title"><a href="news.html">How to eat like a local</a></div>
+									<div class="footer_latest_item_date">Apr 12, 2019</div>
+								</div>
+							</div>
+
+							<!-- Footer Latest Post -->
+							<div class="footer_latest_item">
+								<div class="footer_latest_image"><img src="images/winenot_small.png" alt="https://unsplash.com/@sanfrancisco"></div>
+								<div class="footer_latest_item_content">
+									<div class="footer_latest_item_title"><a href="news.html">Wine Not?</a></div>
+									<div class="footer_latest_item_date">Apr 11, 2019</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- Footer Column -->
+				<div class="col-lg-4 footer_col">
+					<div class="tags footer_tags">
+						<div class="footer_title">Trending Now</div>
+						<ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+							<li class="tag"><a href="#">travel</a></li>
+							<li class="tag"><a href="#">summer</a></li>
+							<li class="tag"><a href="#">cruise</a></li>
+							<li class="tag"><a href="#">beach</a></li>
+							<li class="tag"><a href="#">offer</a></li>
+							<li class="tag"><a href="#">vacation</a></li>
+							<li class="tag"><a href="#">trip</a></li>
+							<li class="tag"><a href="#">city break</a></li>
+							<li class="tag"><a href="#">adventure</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/offers_custom.js"></script>
+</body>
+</html>
